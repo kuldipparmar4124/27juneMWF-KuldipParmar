@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h3>student registration</h3>
+    <fieldset>
+            <legend >my form</legend>
+            <form action="bekend.php" method="post" enctype="multipart/form-data">
+        <table align="senter" border="1">
+                <tr>
+                    <td><label for="">first name</label></td>
+                    <td><input type="text" name="first name" id="" required><span>*</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">last name</label></td>
+                    <td><input type="text" name="last name" id="" required><span>*</span></td>
+                </tr>
+                <tr>
+                    <td>User Name</td>
+                    <td><input type="text" placeholder="Enter User Name" autocomplete="off" value="" name="username" id="username" required><span>*</span></td>
+                </tr>
+                <tr>
+                    <td><label for="password">password</label></td>
+                    <td><input type="password" name="password" required id="password"placeholder="password"><span>*</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">email.id</label></td>
+                    <td><input type="email" name="email.id" id="" required><span>*</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">mo.namber</label></td>
+                    <td><input type="tel" name="mo.namber" id=""required><span>*</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">dath of birth</label></td>
+                    <td><input type="date" name="dath of birth" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td><input type="radio" name="Gender" id="">Male
+                    <input type="radio" name="Gender" id="">Femail
+                   <input type="radio" name="Gender" id="">Other</td>
+                </tr>
+                <tr>
+                    <td><label for="age">age</label></td>
+                    <td>
+                        <input type="number"  name="my age" minlength="18" maxlength="35" placeholder="18-35" id="age">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">profile photo</label></td>
+                    <td>
+                        <input type="file" accept="image/*" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">url</label></td>
+                    <td>
+                        <input type="url" name="url" id="">
+                    </td>
+                <tr>
+                    <td><label for="">address :</label></td>
+                    <td><textarea name="address" id="" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="">city</label></td>
+                    <td><select name="city" id="">
+                          <option value="1">amdavad</option>
+                          <option value="2">surat</option>
+                          <option value="3">gandhinagar</option>
+                          <option value="4">rajkot</option>
+                          <option value="5">vadodara</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">pin code</label></td>
+                    <td><input type="namber" maxlength="10" name="pin code" id="" required><span>*</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">state</label></td>
+                    <td><input type="text" name="state" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">country</label></td>
+                    <td><input type="text" name="country" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">hobbies :</label><span>*</span></td>
+                    <td><input type="checkbox" name="hobbies" id=""required>singing <BR>
+                    <input type="checkbox" name="hobbies" id=""required>danching <BR>
+                    <input type="checkbox" name="hobbies" id="" required>sketching  <br>
+                    Other <input type="text" name="hobbies" placeholder="ex. teaching" id=""required></td>
+                </tr>
+                <tr>
+                       <td><label for="">qualification :</label><span>*</span></td>     
+                <td>12<input type="checkbox" name="qualification" id=""><br>
+                    bachelors<input type="checkbox" name="qualification" id=""><br>
+                    master<input type="checkbox" name="qualification" id=""></td>
+                </tr>
+            <tr>
+              <td><label for="">courses applied for</label><span>*</span></td>
+              <td>BCA<input type="checkbox" name="courses applied for" id=""><Br>
+              B.COM<input type="checkbox" name="courses applied for" id=""><br>
+             B.Sc <input type="checkbox" name="courses applied for" id=""><br>
+              BA<input type="checkbox" name="courses applied for" id=""><br>
+             MCA <input type="checkbox" name="courses applied for" id=""><br>
+              M.COM<input type="checkbox" name="courses applied for" id=""><br>
+             M.Sc<input type="checkbox" name="courses applied for" id=""><br>
+             MA<input type="checkbox" name="courses applied for" id=""></td>
+             </tr>
+
+             <tr>
+                <td><input type="submit" name="submit naw" id="">
+                <input type="reset" name="reset naw" id=""></td>
+             </tr>
+
+
+
+
+
+        </table>
+
+
+
+            </form>
+    </fieldset>
+    
+</body>
+</html>

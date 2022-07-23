@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            color: rgb(253, 7, 7);
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>travel reservation form</legend>
+        <form action="bekend.php" method="get" enctype="multipart/form-data">
+        <table >
+                <tr>
+                    <td><label for=" full name">full name</label></td>
+                    <td> <input type="name" name="my name" id="full name"required> <span>*</span></td> 
+                </tr>
+                <tr>
+                    <td><label for="email">email</label></td>
+                    <td><input type="email" name="my email" id="email"required><span>*</span></td>
+                </tr>
+               
+                <tr>
+                    <td> <label for="">select your package:</label></td>
+                  <td>
+                    <select name="select your package" id="select your package">
+                    <option value=""></option>
+                    <option value="1">goa</option>
+                    <option value="2">manali</option>
+                    <option value="3">kedarnath</option>
+                    <option value="4">somnath</option>
+                  </select>
+                  </td>
+                </tr>
+                <tr>
+                    <td><label for="Arrival date">Arrival date:</label></td>
+                    <td><input type="date" name="my date" id="Arrival date"></td>
+                </tr>
+                <tr>
+                    <td><label for="namber of persons">namber of persons</label></td>
+                    <td><input type="namber" name="namber of per" id="namber of persons"></td>
+                </tr>
+                <tr>
+                    <td><label for="what would you want to avail?">what would you want to avail? :</label></td>
+                    <td> boarding<input type="checkbox" name="check[]" id="boarding"value="">
+                   fooding<input type="checkbox" name="check[]" id="fooding"value="">
+                 sight seeing<input type="checkbox" name="check[]" id="sight seeing"value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">dicount coupan code :</label></td>
+                    <td><input type="text" name="coupen code" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="terms and condition"required>terms and condition</label><span>*</span></td>
+                    <td><input type="radio" name="terms and condition" id="i agree"value=""required>i agree
+                        <input type="radio" name="terms and condition" id="i disagree" value=""required>i disagree</td>
+                </tr>
+                 <tr>
+                    <td><label for="complete reservation">complete reservation</label></td>
+                    <td><input type="submit" name="complete reservation" id=""></td>
+                 </tr>
+        </table>
+    </form>
+    </fieldset>
+</body>
+</html>
