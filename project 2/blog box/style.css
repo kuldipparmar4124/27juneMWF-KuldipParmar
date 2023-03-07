@@ -19,9 +19,10 @@
 .blogs-container {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .blogs-item {
@@ -41,7 +42,7 @@
 }
 
 .blogs-item:hover {
-    transform: translateY(-4px);
+    transform: translateY(-8px);
     box-shadow: 10px 8px 30px rgb(0 0 0 / 30%);
 }
 
@@ -51,8 +52,8 @@
 }
 
 .blog-image:hover img {
-    transition: all .3s;
-    transform: scale(1.1);
+    transition: all .8s;
+    transform: scale(1.5);
     border-radius: .3rem;
 }
 
@@ -82,13 +83,11 @@
     display: flex;
     align-items: center;
     font-size: .6rem;
-    position: relative;
-    bottom: 0;
-    left: -0.8rem;
+   
 }
 
 .about-author span {
-    font-weight: bold;
+    font-weight: bold;      
 }
 
 @media screen and (max-width: 551px) {

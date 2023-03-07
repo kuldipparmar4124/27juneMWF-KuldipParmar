@@ -14,10 +14,10 @@
     background-color: rgb(22, 7, 36);
 }
 
-.left h1 {
+/* .left h1 {
     font-size: 2.5rem;
     cursor: pointer;
-}
+} */
 
 #home {
     width: 80%;
@@ -27,9 +27,9 @@
     justify-content: space-around;
 }
 
-.leftHome {
+/* .leftHome {
     width: 500px;
-}
+} */
 
 .leftHome h3 {
     color: #de2639;
@@ -52,7 +52,7 @@
 .rightHome {
     width: 50%;
     margin: 1rem;
-    position: relative;
+    /* position: relative; */
 }
 
 .btn {
@@ -78,7 +78,7 @@
     .leftHome {
         margin: 0;
         width: 100%;
-    }
+    }          
 
     .leftHome h3 {
         font-size: 1rem;

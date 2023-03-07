@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize; 
+   
+    text-decoration: none;
+}
+
+
+html {
+    font-size: 72.5%;
+}
+
+
+.left img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.left h1 {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    color: #ed1e79;
+}
+
+.right ul {
+    display: flex;
+    padding: 3rem;
+}
+
+.right ul li {
+    padding: 10px 20px;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.right ul li a:hover {
+    background-color: #fff;
+    border-radius: 7px;
+    color: rgb(22, 7, 36);
+}
+
+
+
+.main-bg {
+    background-image: url("../img/bg\ 3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 5;
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.text h3 {
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: white;
+    font-weight: normal;
+
+}
+
+.text h1 {
+    font-size: 5.5rem;
+    color: white;
+}
+
+.text p {
+    font-size: 1rem;
+    /* text-align: justify; */
+    width: 50%;
+    color: rgb(241, 235, 235);
+    margin: 2.5rem auto;
+}
+
+.btn button {
+    padding: .8rem 2rem;
+    font-size: 1rem;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    background-color: orangered
+}
+.btn{
+    justify-content: space-between;
+    display: flex;
+    width: 35%;
+    margin: 1rem auto;
+    
+    
+}
+
+
+
+.blogs-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+}
+
+.blogs-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .3rem;
+    width: 260px;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+.blogs-item h3 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.blog-image img {
+    width: 25%;
+}
+
+
+.description {
+    font-size: 1rem;
+}
+
+.red {
+    color: rgb(225, 88, 88) !important;
+}
+
+#sec3{
+    background: rgba(222, 221, 221, 0.76);
+    padding: 2rem 0;
+}
+
+.col50 {
+    width: 60%;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+.rightHome h3 {
+    color: #de2639;
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+    text-transform: uppercase;
+}
+
+.rightHome h2 {
+    color: rgb(96, 91, 91);
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.rightHome {
+    padding: 0rem 2rem;
+
+}
+
+.rightHome p {
+    padding: 1.8rem 0;
+    font-size: 1.5rem;
+    color: rgb(148, 142, 142);
+
+}
+
+
+.leftHome img{
+    width: 50%;
+    margin: 1rem;
+}
+
+
+
+
+.btn4 {
+    cursor: pointer;
+    color: #f9f5f6;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    border: none;
+    background-color: orangered;
+}
+
+
+
+
+
+
+.title {
+    text-align: center;
+    margin: 6rem;
+}
+
+.title h2 {
+    font-size: 5rem;
+}
+
+.title p {
+    font-size: 2rem;
+}
+
+.title h4 {
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    font-weight: normal;
+    margin: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+      
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+}
+
+#item-0 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+}
+
+#item-1 {
+
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 3;
+}
+
+#item-2 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 2;
+    grid-column-end: 4;
+}
+
+#item-3 {
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-row-end: 2;
+    grid-column-end: 5;
+}
+
+#item-4 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+}
+
+#item-5 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 3;
+
+}
+
+#item-6 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 4;
+}
+
+#item-7 {
+    grid-row-start: 2;
+    grid-column-start: 4;
+
+    grid-row-end: 3;
+    grid-column-end: 5;
+}
+
+
+
+@media (max-width:805px) {
+    .html {
+        font-size: 50%;
+    }
+
+    .text {
+        padding: 2rem;
+    }
+
+    .list {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(22, 7, 36);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 7rem;
+        left: 100%;
+        transition: all 1s;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkBtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0%;
+    }
+
+    .btn button {
+        padding: .4rem 1rem;
+        font-size: 1rem;
+        border: 1px solid white;
+        background: none;
+        color: white;
+        background-color: orangered
+    }
+
+    .col50 {
+        flex-direction: column-reverse;
+    }
+
+
+    .lefttHome {
+        width: 90%;
+        margin-top: 1rem;
+    }
+
+
+    .rightHome {
+        margin: 0;
+        width: 100%;
+    }
+
+    .rightHome h3 {
+        font-size: 1rem;
+    }
+
+    .rightHome h2 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 551px) {
+    html {
+        font-size: 45%;
+    }
+
+    .blogs-container {
+        justify-content: center;
+    }
+}
