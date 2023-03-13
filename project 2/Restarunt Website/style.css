@@ -6,6 +6,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  /* border: 1PX solid; */
 }
 
 .html {
@@ -64,6 +65,7 @@ body {
   opacity: 0.85;
   height: 50px;
   z-index: 12;
+  /* overflow X: hidden; */
 }
 
 .navbar-container {
@@ -87,7 +89,7 @@ body {
 
 .menu-items a {
   text-decoration: none;
-  color: #444;
+  color: #3c3b3b;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
@@ -108,8 +110,8 @@ body {
 .showcase-area {
   height: 50vh;
   background: linear-gradient(
-      rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)
+      rgba(8, 8, 8, 0.665),
+      rgba(5, 5, 5, 0.744)
     ),
     url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
   background-size: cover;
@@ -159,10 +161,14 @@ body {
 }
 
 .about-img {
-  flex: 1 1 400px;
+  /* flex: 1 1 400px; */
   padding: 30px;
   transform: translateX(150%);
   animation: about-img-animation 1s ease-in-out forwards;
+}
+
+.at{
+flex: 1 1 400px;
 }
 
 @keyframes about-img-animation {
@@ -172,7 +178,7 @@ body {
 }
 
 .about-text {
-  flex: 1 1 400px;
+  /* flex: 1 1 400px; */
   padding: 30px;
   margin: auto;
   transform: translate(-150%);
@@ -364,8 +370,8 @@ body {
 
 .customer-photo img {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 118px;
+  height: 118px;
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
@@ -465,6 +471,7 @@ body {
     height: 64px;
   }
 
+
   .navbar-container input[type="checkbox"] {
     position: absolute;
     display: block;
@@ -542,6 +549,7 @@ body {
     transform: translateX(0);
   }
 
+
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
     transform: rotate(35deg);
   }
@@ -550,9 +558,16 @@ body {
     transform: scaleY(0);
   }
 
+
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-35deg);
   }
+
+
+  .about-img img {
+    height: auto;
+}
+
 
   /* ......./ food /......... */
 
